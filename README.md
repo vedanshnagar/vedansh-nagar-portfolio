@@ -2,7 +2,7 @@
 
 A fast, responsive personal portfolio website built with TypeScript, Vite, and Tailwind CSS to showcase my software projects, technical skills, and professional experience. Designed for recruiters, hiring managers, and collaborators looking to explore my work and get in touch.
 
-🔗 **Live Demo:** [vedansh-nagar-portfolio.vercel.app](https://vercel.app)
+🔗 **Live Webpage:** [vedansh-nagar-portfolio.vercel.app](https://vercel.app)
 
 ---
 
