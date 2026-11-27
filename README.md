@@ -2,7 +2,6 @@
 
 [![Website](https://img.shields.io/badge/Website-Live-4F46E5?style=for-the-badge&logo=vercel&logoColor=white)](https://vedansh-nagar-portfolio.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-vedanshnagar-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vedanshnagar)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 A polished, responsive developer portfolio designed to showcase my software projects, technical skills, and professional experience. Built with performance, accessibility, and clean visual design in mind.
 
@@ -202,33 +201,6 @@ Vercel can automatically redeploy the site whenever changes are pushed to the se
 
 ---
 
-## Contributing
-
-Contributions, suggestions, and issue reports are welcome.
-
-1. Fork the repository.
-2. Create a feature branch:
-
-```bash
-git checkout -b feature/improve-portfolio
-```
-
-3. Commit your changes:
-
-```bash
-git commit -m "Improve portfolio feature"
-```
-
-4. Push the branch and open a pull request:
-
-```bash
-git push origin feature/improve-portfolio
-```
-
-Please keep changes focused and follow the existing code style.
-
----
-
 ## Roadmap
 
 - [ ] Add project screenshots and preview videos
@@ -252,11 +224,11 @@ The site targets modern browsers, including current releases of:
 
 ---
 
-## License
+## Copyright and Usage
 
-This project is licensed under the [MIT License](LICENSE).
+Copyright © 2026 Vedansh Nagar. All rights reserved.
 
-You are free to use, modify, and distribute the source code in accordance with the license terms.
+The source code, design, content, images, and other materials in this repository are proprietary and may not be used, copied, reproduced, modified, distributed, published, sold, sublicensed, or forked without prior written permission from Vedansh Nagar.
 
 ---
 
