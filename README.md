@@ -1,86 +1,273 @@
 # Vedansh Nagar — Developer Portfolio
 
-A fast, responsive personal portfolio website built with TypeScript, Vite, and Tailwind CSS to showcase my software projects, technical skills, and professional experience. Designed for recruiters, hiring managers, and collaborators looking to explore my work and get in touch.
+[![Website](https://img.shields.io/badge/Website-Live-4F46E5?style=for-the-badge&logo=vercel&logoColor=white)](https://vedansh-nagar-portfolio.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-vedanshnagar-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vedanshnagar)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-🔗 **Live Webpage:** [vedansh-nagar-portfolio.vercel.app](https://vercel.app)
+A polished, responsive developer portfolio designed to showcase my software projects, technical skills, and professional experience. Built with performance, accessibility, and clean visual design in mind.
 
----
-
-## ✨ Features
-
-* **Responsive Design** — Optimized for desktop, tablet, and mobile screens using Tailwind CSS.
-* **Project Showcase** — Highlights key development projects with descriptions, tech stacks, and links to source code or live demos.
-* **Skills & Experience** — Clean overview of core programming languages, frameworks, and tools.
-* **Direct Contact** — Easy ways for recruiters, clients, and fellow developers to connect.
+**Live Website:** [vedansh-nagar-portfolio.vercel.app](https://vedansh-nagar-portfolio.vercel.app)
 
 ---
 
-## 🛠️ Tech Stack
+## About
 
-* **Language:** TypeScript
-* **Build Tool:** Vite
-* **Styling:** Tailwind CSS & PostCSS
-* **Linting:** Oxlint
-* **Package Manager:** pnpm
-* **Deployment:** Vercel
+This portfolio provides recruiters, clients, and fellow developers with a focused overview of my work and capabilities. It combines modern frontend engineering practices with a clear, approachable presentation of projects and experience.
+
+### Highlights
+
+- Responsive across mobile, tablet, and desktop devices
+- Fast, optimized Vite production builds
+- Modern TypeScript and component-based architecture
+- Accessible navigation and interface elements
+- Project-focused presentation with source and demo links
+- Clean Tailwind CSS styling and reusable components
 
 ---
 
-## 🚀 Getting Started
+## Tech Stack
+
+### Frontend
+
+- **TypeScript** — strongly typed application development
+- **React** — component-based user interface
+- **Vite** — fast development server and production bundling
+- **Tailwind CSS** — utility-first responsive styling
+- **PostCSS** — CSS processing and transformations
+
+### Development Tools
+
+- **pnpm** — fast, efficient package management
+- **Oxlint** — fast JavaScript and TypeScript linting
+- **Git & GitHub** — source control and collaboration
+- **Vercel** — hosting and continuous deployment
+
+---
+
+## Features
+
+- Responsive portfolio layout
+- Developer introduction and background
+- Skills and technology overview
+- Curated software project showcase
+- Project descriptions and technology stacks
+- Links to source repositories and live demos
+- Professional experience and contact information
+- Mobile-friendly navigation
+- SEO-friendly document structure
+- Optimized static assets and fast loading
+
+---
+
+## Projects
+
+Explore the project cards on the [live portfolio](https://vedansh-nagar-portfolio.vercel.app) for descriptions, technologies, screenshots, source code, and live demonstrations.
+
+| Project | Description | Stack | Links |
+|---|---|---|---|
+| Portfolio | Personal developer portfolio and project showcase | React, TypeScript, Vite, Tailwind CSS | [Website](https://vedansh-nagar-portfolio.vercel.app) · [Source](https://github.com/vedanshnagar/vedansh-nagar-portfolio) |
+
+> Add additional projects to this table as they are completed or deployed.
+
+---
+
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io) installed on your machine.
+Install the following before running the project:
 
-### Installation
+- [Node.js](https://nodejs.org/) 18 or newer
+- [pnpm](https://pnpm.io/) 8 or newer
+- Git
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com
-   cd vedansh-nagar-portfolio
-   ```
+### Clone the Repository
 
-2. **Install dependencies**
-   ```bash
-   pnpm install
-   ```
+```bash
+git clone https://github.com/vedanshnagar/vedansh-nagar-portfolio.git
+cd vedansh-nagar-portfolio
+```
 
-3. **Start the development server**
-   ```bash
-   pnpm dev
-   ```
+### Install Dependencies
 
-4. **Build for production**
-   ```bash
-   pnpm build
-   ```
+```bash
+pnpm install
+```
 
----
+### Start Development Server
 
-## 📁 Project Structure
+```bash
+pnpm dev
+```
 
-```text
-vedansh-nagar-portfolio/
-├── public/              # Static assets
-├── src/                 # Application source code and components
-├── index.html           # Entry HTML template
-├── package.json         # Dependencies and scripts
-├── pnpm-lock.yaml       # Lockfile
-├── postcss.config.js    # PostCSS configuration
-├── tailwind.config.js   # Tailwind CSS configuration
-├── tsconfig.json        # TypeScript configuration
-└── vite.config.ts       # Vite configuration
+Open `http://localhost:5173` in your browser. Vite will automatically reload the page when source files change.
+
+### Create a Production Build
+
+```bash
+pnpm build
+```
+
+The generated production files will be placed in the `dist/` directory.
+
+### Preview the Production Build
+
+```bash
+pnpm preview
+```
+
+### Run Lint Checks
+
+```bash
+pnpm lint
 ```
 
 ---
 
-## 📄 License
+## Available Scripts
 
-This project is licensed under the [MIT License](LICENSE).
+| Command | Description |
+|---|---|
+| `pnpm dev` | Start the Vite development server |
+| `pnpm build` | Type-check and build for production |
+| `pnpm preview` | Serve the production build locally |
+| `pnpm lint` | Run Oxlint checks |
 
 ---
 
-## 📬 Contact
+## Project Structure
 
-* **Portfolio:** [vedansh-nagar-portfolio.vercel.app](https://vercel.app)
-* **GitHub:** [@vedanshnagar](https://github.com)
+```text
+vedansh-nagar-portfolio/
+├── public/                 # Favicons, images, and static assets
+├── src/
+│   ├── assets/             # Imported images, icons, and media
+│   ├── components/         # Reusable UI components
+│   ├── App.tsx             # Main application component
+│   └── main.tsx            # Application entry point
+├── index.html              # HTML document template
+├── package.json            # Project metadata and scripts
+├── pnpm-lock.yaml          # Dependency lockfile
+├── postcss.config.js       # PostCSS configuration
+├── tailwind.config.js      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── vite.config.ts          # Vite configuration
+```
+
+---
+
+## Configuration
+
+The project uses standard Vite, TypeScript, Tailwind CSS, and PostCSS configuration files. Update Tailwind theme settings in `tailwind.config.js` and Vite settings in `vite.config.ts` when extending or customizing the application.
+
+When adding environment variables, use Vite's `VITE_` prefix and keep secrets out of frontend source code.
+
+```env
+VITE_SITE_URL=https://vedansh-nagar-portfolio.vercel.app
+```
+
+---
+
+## Performance and Accessibility
+
+- Semantic HTML structure
+- Responsive, fluid layouts
+- Keyboard-friendly navigation
+- Optimized assets and minimal client-side overhead
+- Clear text contrast and readable typography
+- Production bundles generated through Vite
+
+---
+
+## Deployment
+
+This project is deployed with [Vercel](https://vercel.com/).
+
+### Deploy with Vercel
+
+1. Push the repository to GitHub.
+2. Import the repository in the Vercel dashboard.
+3. Use the standard Vite configuration:
+
+```text
+Framework preset: Vite
+Build command: pnpm build
+Output directory: dist
+Install command: pnpm install
+```
+
+4. Deploy and configure a custom domain if needed.
+
+Vercel can automatically redeploy the site whenever changes are pushed to the selected GitHub branch.
+
+---
+
+## Contributing
+
+Contributions, suggestions, and issue reports are welcome.
+
+1. Fork the repository.
+2. Create a feature branch:
+
+```bash
+git checkout -b feature/improve-portfolio
+```
+
+3. Commit your changes:
+
+```bash
+git commit -m "Improve portfolio feature"
+```
+
+4. Push the branch and open a pull request:
+
+```bash
+git push origin feature/improve-portfolio
+```
+
+Please keep changes focused and follow the existing code style.
+
+---
+
+## Roadmap
+
+- [ ] Add project screenshots and preview videos
+- [ ] Add downloadable resume
+- [ ] Expand project filtering and search
+- [ ] Add blog or technical article section
+- [ ] Add automated tests
+- [ ] Improve analytics and SEO metadata
+- [ ] Add internationalization support
+
+---
+
+## Browser Support
+
+The site targets modern browsers, including current releases of:
+
+- Chrome
+- Firefox
+- Safari
+- Microsoft Edge
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+You are free to use, modify, and distribute the source code in accordance with the license terms.
+
+---
+
+## Contact
+
+- **Portfolio:** [vedansh-nagar-portfolio.vercel.app](https://vedansh-nagar-portfolio.vercel.app)
+- **GitHub:** [github.com/vedanshnagar](https://github.com/vedanshnagar)
+- **LinkedIn:** [linkedin.com/in/vedanshnagar](https://www.linkedin.com/in/vedanshnagar/)
+
+For opportunities, collaborations, or portfolio feedback, connect with me through LinkedIn or visit the contact section on the website.
+
+---
+
+<p align="center">Designed and developed by <strong>Vedansh Nagar</strong></p>
