@@ -221,6 +221,7 @@ The site targets modern browsers, including current releases of:
 - Firefox
 - Safari
 - Microsoft Edge
+- Brave
 
 ---
 
